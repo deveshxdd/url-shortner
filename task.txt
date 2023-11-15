@@ -1,0 +1,6 @@
+hume generally ek url - shortner design krna h jo ek url le aur usko short krde
+aur uss shorted url se hum original page pe redirect hojaae
+also keep track total visits 
+post - jispe url post krenge
+get - jo original pe redirect krega
+get - jo shorted id provide krega
