@@ -1,0 +1,14 @@
+//  SERVER SIDE RENDERING KE BAARE ME KUCH BAATE 
+ jaha pe hamara pura html page server se render hota hai use hum ssr bolte hai
+ res.send() iske andar pura web page dalna is not a good idea 
+ bahut hectic code hojaaega so we make a rendering file where we store html page called ejs
+ ejs is diff  from html as with help of ejs we can change anything in html from server side 
+ FIRSTLY INSTALL EJS
+1- make views folder
+2 - configure code in index.js
+3 - make ejs files 
+4 - in place of res.send use res.render 
+res.render ke andar bss ejs file ka name daalo 
+ejs is tempelate engine for ssr
+app.set("view engine ", "ejs")
+set krna pdta h view engine , ejs

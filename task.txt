@@ -4,3 +4,6 @@ also keep track total visits
 post - jispe url post krenge
 get - jo original pe redirect krega
 get - jo shorted id provide krega
+
+
+/ agar mvc padhna h to project banao khub 

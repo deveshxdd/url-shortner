@@ -1,5 +1,6 @@
 const shortID = require("shortid")
 const URL = require('../models/url')
+
 // jo mongo me data aarha h usko ye lerha
 async function handlenewurl(req,res){
     const body = req.body
@@ -11,8 +12,10 @@ await URL.create({
     visits: []
 
 })
-return res.json({id: shortid})
+ res.render('file',{id:shortid})
 }
+
+
 
 module.exports = {
     handlenewurl
